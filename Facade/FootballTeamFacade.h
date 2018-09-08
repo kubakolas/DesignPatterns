@@ -25,6 +25,7 @@ public:
 		}
 	}
 };
+
 class FootballTeamFacade {
 private:
 	Coach coach_;
