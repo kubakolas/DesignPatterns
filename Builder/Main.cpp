@@ -1,6 +1,5 @@
 #include "FootballTeamBuilder.h"
-int main()
-{
+int main() {
 	FootballTeamsDirector director;
 	const auto weakTeamBuilder = std::make_shared<WeakTeamBuilder>();
 	const auto goodTeamBuilder = std::make_shared<GoodTeamBuilder>();
